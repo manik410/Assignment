@@ -1,0 +1,22 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div style="margin:150px;">
+        <div style="float:right;">
+        <span style="font-size: 20px;"><b>Name</b> &nbsp;&nbsp;&nbsp;{{name}}</span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span style="font-size: 20px;"><b>Email</b> &nbsp;&nbsp;&nbsp;{{name}}140@gmail.com</span>
+        <br/><br/><br/>
+        <span style="font-size: 20px;"><b>Mobile</b> &nbsp;&nbsp;&nbsp;9041035777</span>
+        <br/><br/><br/>
+        <span style="font-size: 20px;"><b>Username</b> &nbsp;&nbsp;&nbsp;{{name}}</span>
+      </div>
+        <img [src]="url" height="auto" class="img-rounded" style="border-radius: 50%;height: 100px;width: 100px;">
+        <input  (change)="onSelectFile($event)" type="file" id="up" name="image" ng2FileSelect accept="image/x-png,image/gif,image/jpeg" >
+
+      </div>
+
+    </div>
+  </div>
+</div>
